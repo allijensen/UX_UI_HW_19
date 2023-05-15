@@ -1,0 +1,120 @@
+.nav {
+    background-color: #facfea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  .left{
+    width: 800%;
+    padding: 10px;
+    background-color: #facfea;
+  }
+  .right{
+    width: 100%;
+    padding-left: 10px;
+  }
+  .flex{
+  display: flex;
+  }
+  /*.items-center{
+  align-items: left;
+  }
+  .container{
+    background-color: #facfea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;*/
+  /*.justify-between{
+  justify-content: space-between;
+    outline-style: dashed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }*/
+  .justify-center{
+  justify-content: center;
+  }
+  /*.justify-right{
+    outline-style: dashed; 
+  }*/
+  .flex-1{
+   width: 30%
+  }
+  body{
+  font-family: 'Roboto', sans-serif;
+  }
+  a:link {
+    color: black
+  }
+  a:hover {
+    font-weight: bold
+  }
+  /*.container{
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline-style: dashed;
+  }*/
+  .right {
+    justify-content: center;
+  }
+  .hero{
+  padding-top: 32px;
+  padding-bottom: 48px;
+  padding-left: 10px;
+  }
+  .hero .left img{
+  width: 150px;
+  padding: 10px;
+  }
+  img {
+    border-radius: 50%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    background-color: #faf0f6;
+    grid-template-rows: 350px 350px;
+    padding-left: 150px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #facfea;
+    padding: 20px;
+    font-size: 20px;
+    text-align: start;
+  }
+  .grid-container {
+    grid-gap: 100px;
+  }
+  .footer {
+    background-color: #facfea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+  
+  @media screen and (max-width:800px){
+      .grid-container {
+          display: grid;
+          grid-template-columns: 50%;
+          grid-template-rows: 250px 250px 250px 250px;
+          padding-left: 50px;
+        }
+        .grid-item {
+          background-color: #faf0f6;
+          border: 2px solid rgba(0, 0, 0, 0.8);
+          padding: 10px;
+          font-size: 20px;
+          text-align: start;
+        }
+        .grid-container {
+          grid-gap: 50px;
+        }
+  }
+  
+  
