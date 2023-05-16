@@ -70,7 +70,7 @@
   width: 150px;
   padding: 10px;
   }
-  img {
+  #profilePic {
     border-radius: 50%;
   }
   .grid-container {
@@ -82,7 +82,6 @@
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #facfea;
     padding: 20px;
     font-size: 20px;
     text-align: start;
@@ -99,21 +98,56 @@
   }
   
   @media screen and (max-width:800px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 250px 250px 250px 250px;
+        padding-left: 50px;
+      }
+      .grid-item {
+        background-color: #faf0f6;
+        padding: 5px;
+        font-size: 20px;
+        text-align: start;
+      }
       .grid-container {
-          display: grid;
-          grid-template-columns: 50%;
-          grid-template-rows: 250px 250px 250px 250px;
-          padding-left: 50px;
-        }
-        .grid-item {
-          background-color: #faf0f6;
-          border: 2px solid rgba(0, 0, 0, 0.8);
-          padding: 10px;
-          font-size: 20px;
-          text-align: start;
-        }
-        .grid-container {
-          grid-gap: 50px;
-        }
+        grid-gap: 130px;
+      }
+  .flex{
+    flex-direction: column;
+    padding: 10px;
   }
+  .left{
+    flex-direction: row;
+    width: 650px;
+    height: 200px;
+  }
+  .nav{
+    height: 25px;
+  }
+  .footer{
+    height: 25px;
+  }
+  .head1{
+    padding: 1px;
+    font-size: 20px;
+  }
+  .hero .left img{
+    width: 50px;
+    padding: 1px;
+}
+  .head2{
+    padding: 1px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:600px){
+  .left{
+    flex-direction: row;
+    width: 480px;
+    height: 200px;
+  }
+
+}
+
   

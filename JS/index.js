@@ -2,12 +2,41 @@
     $('#caseStudy1').hover(function() {
         $(this).css("cursor", "pointer");
         $(this).animate({
-            width: "50%",
-            height: "50%"
+            width: "375px",
+            height: "375px"
         }, 'slow');
     
     }, function() {
         $(this).animate({
-            width: "28%"
+            width: "300px",
+            height: "300px"
         }, 'slow');
     });
+    $('#caseStudy2').hover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).animate({
+            width: "375px",
+            height: "375px"
+        }, 'slow');
+    
+    }, function() {
+        $(this).animate({
+            width: "300px",
+            height: "300px"
+        }, 'slow');
+    });
+    $('#caseStudy3').hover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).animate({
+            width: "375px",
+            height: "375px"
+        }, 'slow');
+    
+    }, function() {
+        $(this).animate({
+            width: "300px",
+            height: "300px"
+        }, 'slow');
+    });
+
+  
